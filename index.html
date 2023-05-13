@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en"><!--idioma de la pagina-->>
-<head> <!--Cabecera, metadata(informacion oculta) -->
-    <meta charset="UTF-8"> <!--Codificacion-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 5y6 => config para que aceepte reesponsive web design-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>first page</title>
-</head>
-<body>
+    <head> <!--Cabecera, metadata(informacion oculta) -->
+        <meta charset="UTF-8"> <!--Codificacion-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 5y6 => config para que aceepte reesponsive web design-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <title>first page</title>
 
- <!--
+        <style>
+        
+h3{
+    color: aqua;  
+}
+
+p{
+    color: rgb(0, 68, 253);
+}
+button:hover{
+    color: red;
+}
+    </style>
+
+    </head>
+    <body>
+
+        <!--
    - Cabecera 
        <header></header>
    - Barra de  navegacion
@@ -19,60 +34,61 @@
    - PIE
       <footer></footer>
 -->
+        <header>
+            <h1 style="color: blue;"></h1>
+            <img src="./img/bp.png" alt="logo-banco pichincha">
+            <h1>Banco del Pichincha</h1>
+            <hr>
+        </header>
+        <nav> <!--biene de la DB-->
+            <ul>
+                <li>Cuentas</li>
+                <li>Tarjetas</li>
+                <li>Prestamos</li>
+                <li>Inversiones</li>
+                <li>Servicios</li>
+            </ul>
 
-<header>
-    <img src="./img/bp.png" alt="logo-banco pichincha">
-    <h1>Banco del Pichincha</h1>
-    <hr>
-</header>
-<nav> <!--biene de la DB-->
-    <ul>
-        <li>Cuentas</li>
-        <li>Tarjetas</li>
-        <li>Prestamos</li>
-        <li>Inversiones</li>
-        <li>Servicios</li>
-    </ul>
+        </nav>
+        <section>
+            <article>
+                <h3>Primer parrafo</h3>
+                <time datetime="12-10-2023">Publicado el 12-10-2023</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime rem doloribus voluptate perspiciatis fugit provident
+                    velit debitis totam repellendus officia pariatur in quae
+                    facilis
+                    eos, ducimus, nesciunt sint eveniet rerum.</p>
+                <button>boton</button>
+                    <footer>
+                    <p>Comentarios (3)</p>
+                </footer>
+            </article>
 
-</nav>
-<section>
-    <article>
-        <h3>Primer parrafo</h3>
-        <time datetime="12-10-2023">Publicado el 12-10-2023</time>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime rem doloribus voluptate perspiciatis fugit provident
-            velit debitis totam repellendus officia pariatur in quae
-            facilis
-            eos, ducimus, nesciunt sint eveniet rerum.</p>
+            <article>
+                <h3>Segundo parrafo</h3>
+                <time datetime="12-10-2023">Publicado el 12-10-2023</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime rem doloribus voluptate perspiciatis fugit provident
+                    velit debitis totam repellendus officia pariatur in quae
+                    facilis
+                    eos, ducimus, nesciunt sint eveniet rerum.</p>
+                <footer>
+                    <p>Comentarios (3)</p>
+                </footer>
+            </article>
+        </section>
+
+        <aside>
+            <blockquote cite="https://www.pichincha.com/portal">Referencia 1</blockquote>
+            <blockquote cite="https://www.produbanco.com.ec/">Referencia 2</blockquote>
+        </aside>
+
+        <hr>
         <footer>
-            <p>Comentarios (3)</p>
+            Derechos reservados
+            Programacion web 2023
         </footer>
-    </article>
 
-    <article>
-        <h3>Segundo parrafo</h3>
-        <time datetime="12-10-2023">Publicado el 12-10-2023</time>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime rem doloribus voluptate perspiciatis fugit provident
-            velit debitis totam repellendus officia pariatur in quae
-            facilis
-            eos, ducimus, nesciunt sint eveniet rerum.</p>
-        <footer>
-            <p>Comentarios (3)</p>
-        </footer>
-    </article>
-</section>
-
-<aside>
-    <blockquote cite="https://www.pichincha.com/portal">Referencia 1</blockquote>
-    <blockquote cite="https://www.produbanco.com.ec/">Referencia 2</blockquote>
-</aside>
-
-<hr>
-<footer>
-    Derechos reservados
-    Programacion web 2023
-</footer>
-  
-</body>
+    </body>
 </html>
