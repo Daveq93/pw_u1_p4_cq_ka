@@ -21,5 +21,19 @@ selector{
   ### ejem
   color:red;
 }
+
+##selector pseudo clase
+se atan a elementos
   
+
+  #medidas
+  para manejar medidas dentro de css, siempre manejamos pixeles
+
+  existen 3 formas para declarar css 3
+      - interno
+      - externo
+      - en linea
+  existe 6 tipos de selectores
+
+
 
