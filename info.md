@@ -35,5 +35,20 @@ se atan a elementos
       - en linea
   existe 6 tipos de selectores
 
+cuando hablamos de maquetado, estamos hablando del esqueleto de la pagina
 
+Cuando quiero establecer un estilo a un elemento interno,
+
+# DOM
+DOM: Document Objet Model = cuando creamos paginas web se crea una estructura de arbol de elementos que estoy usando, y todo es el modelo de objetos del documento.
+
+La distribucion de elementos por defecto esta uno debajo del otro.
+### Display (como se va a ubicar un elemento con respecto al otro)
+para decirle donde debe ubicarse cada elemento
+
+
+todos los elementos en html tiene un espacio invisible, la linea que delimita ese espacio invisible se lo conoce como borde, el espacio que hay entre elementos, se lo conoce como margen, lo que se visuliza se lo conoce como contenido, la distancia del contenido hacia el borde, se lo conoce como padding
+
+
+si le aplicamos el float, van a quedar a la deriva(flotando) como que no existiera esa seccion dentro del DOM
 
