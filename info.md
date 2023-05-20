@@ -52,3 +52,8 @@ todos los elementos en html tiene un espacio invisible, la linea que delimita es
 
 si le aplicamos el float, van a quedar a la deriva(flotando) como que no existiera esa seccion dentro del DOM
 
+# Java Script
+para hacer referencia al DOM, utilizamos la palabra reservada Document
+
+
+
