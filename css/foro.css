@@ -17,6 +17,7 @@ body{
    margin: 5px;
    padding: 10px 10px;
    /*text-align: left;*/
+   
 }
 
 li{
@@ -45,7 +46,7 @@ text-align: center;
 
 .formulario{
     background-color: rgb(229, 236, 234);
-    width: 900px;
+    width: 1000px;
     border:1px double black;
     margin: 15px auto;
 
@@ -60,7 +61,29 @@ text-align: center;
 article{
     border: 1px solid black;
     padding: 20px;
-    
     margin-bottom:30px;
     background: rgb(199, 199, 194);
 }
+
+.referencias{
+    border: 1px solid brown;
+    width: 200px;
+    float: left;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+
+article footer{
+   text-align: right;
+    color: rgb(61, 37, 5);
+}
+
+.pie{
+    clear: both;
+}
+
+.imagenArt{
+    width: 250px;
+    height: 250px;
+}
+
