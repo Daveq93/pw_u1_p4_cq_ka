@@ -55,5 +55,13 @@ si le aplicamos el float, van a quedar a la deriva(flotando) como que no existie
 # Java Script
 para hacer referencia al DOM, utilizamos la palabra reservada Document
 
+## sintaxis para un a funcion
+no se especifica el retorno
 
+function nombreFuncion(arg1, arg2,arg3,...){
+
+  return ...  ;
+}
+
+js intuye tipo de variable
 
