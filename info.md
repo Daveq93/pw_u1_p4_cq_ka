@@ -65,3 +65,15 @@ function nombreFuncion(arg1, arg2,arg3,...){
 
 js intuye tipo de variable
 
+
+# JS
+en js solo existe un solo concepto de lambda
+
+
+ya no se usa el var, si no uno mas eficiente que es (let)
+- var
+- let --> el mas usado
+- const -->constante
+
+# Desestructuracion
+es la descomposicion de un elemento javascript
