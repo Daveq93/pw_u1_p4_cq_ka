@@ -1,0 +1,46 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+/*grid-template-rows: ;*/  /*para limitar numero de filas*/
+box-shadow: 10px 10px 10px 0px black;
+/*la tercera posicion sirve para difuminar la sombra*/
+ /*el cuarto es para que aplique al rededor del elemento*/
+}
+
+.calculadora button{
+    background-color: white;
+    border-style: none;
+    font-size: 30px;
+    
+    border-radius: 40px;
+    margin: 5px;
+    box-shadow: 5px 5px 10px 0px rgb(78, 29, 1);
+}
+
+.calculadora button:hover{
+    background-color: coral;
+}
+
+.cero{
+    grid-column: span 2;
+}
+
+.pantalla{
+    grid-column: span 3;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: 30px;
+}

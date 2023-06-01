@@ -77,3 +77,5 @@ ya no se usa el var, si no uno mas eficiente que es (let)
 
 # Desestructuracion
 es la descomposicion de un elemento javascript
+
+
